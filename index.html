@@ -5,8 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mark 5</title>
+  <style>
+    .text{
+      display: block;
+      padding: 1rem;
+      margin: 1rem;
+      text-align: center;
+    }
+    .button{
+      margin : 1rem;
+    }
+    .div-heading{
+      margin: 1rem;
+      font-size: large;
+      font-weight: bold;
+    }
+    #div-result{
+      border : 1px solid black;
+      height: 13vh;
+      width: 17rem;
+      margin: 1rem;
+      align-content: center;
+    }
+  </style>
 </head>
 <body>
   <h1>hahah</h1>
+
+  
+  <textarea class="text" name="textarea" id="txt-input" cols="30" rows="5" placeholder="Enter the text you want to be translated"></textarea>
+  <button class="button" id="btn-translate">Translate</button>
+  <div class="div-heading">Output is shown here 👇</div>
+  <div id="div-result"></div>
+  <script src="app.js"></script>
 </body>
 </html>
